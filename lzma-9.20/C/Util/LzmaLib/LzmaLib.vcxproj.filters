@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Spec">
+      <UniqueIdentifier>{82f97c00-b069-4057-b45e-63ceb8874dce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LzmaLibExports.c">
+      <Filter>Spec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7zAlloc.c" />
+    <ClCompile Include="..\..\7zBuf2.c" />
+    <ClCompile Include="..\..\7zBuf.c" />
+    <ClCompile Include="..\..\7zCrc.c" />
+    <ClCompile Include="..\..\7zCrcOpt.c" />
+    <ClCompile Include="..\..\7zDec.c" />
+    <ClCompile Include="..\..\7zFile.c" />
+    <ClCompile Include="..\..\7zIn.c" />
+    <ClCompile Include="..\..\7zStream.c" />
+    <ClCompile Include="..\..\Alloc.c" />
+    <ClCompile Include="..\..\Bcj2.c" />
+    <ClCompile Include="..\..\Bra86.c" />
+    <ClCompile Include="..\..\Bra.c" />
+    <ClCompile Include="..\..\BraIA64.c" />
+    <ClCompile Include="..\..\CpuArch.c" />
+    <ClCompile Include="..\..\Delta.c" />
+    <ClCompile Include="..\..\LzFind.c" />
+    <ClCompile Include="..\..\LzFindMt.c" />
+    <ClCompile Include="..\..\Lzma2Dec.c" />
+    <ClCompile Include="..\..\Lzma2Enc.c" />
+    <ClCompile Include="..\..\Lzma86Dec.c" />
+    <ClCompile Include="..\..\Lzma86Enc.c" />
+    <ClCompile Include="..\..\LzmaDec.c" />
+    <ClCompile Include="..\..\LzmaEnc.c" />
+    <ClCompile Include="..\..\LzmaLib.c" />
+    <ClCompile Include="..\..\MtCoder.c" />
+    <ClCompile Include="..\..\Ppmd7.c" />
+    <ClCompile Include="..\..\Ppmd7Dec.c" />
+    <ClCompile Include="..\..\Ppmd7Enc.c" />
+    <ClCompile Include="..\..\Sha256.c" />
+    <ClCompile Include="..\..\Threads.c" />
+    <ClCompile Include="..\..\Xz.c" />
+    <ClCompile Include="..\..\XzCrc64.c" />
+    <ClCompile Include="..\..\XzDec.c" />
+    <ClCompile Include="..\..\XzEnc.c" />
+    <ClCompile Include="..\..\XzIn.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="LzmaLib.def">
+      <Filter>Spec</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\7z.h" />
+    <ClInclude Include="..\..\7zAlloc.h" />
+    <ClInclude Include="..\..\7zBuf.h" />
+    <ClInclude Include="..\..\7zCrc.h" />
+    <ClInclude Include="..\..\7zFile.h" />
+    <ClInclude Include="..\..\7zVersion.h" />
+    <ClInclude Include="..\..\Alloc.h" />
+    <ClInclude Include="..\..\Bcj2.h" />
+    <ClInclude Include="..\..\Bra.h" />
+    <ClInclude Include="..\..\CpuArch.h" />
+    <ClInclude Include="..\..\Delta.h" />
+    <ClInclude Include="..\..\LzFind.h" />
+    <ClInclude Include="..\..\LzFindMt.h" />
+    <ClInclude Include="..\..\LzHash.h" />
+    <ClInclude Include="..\..\Lzma2Dec.h" />
+    <ClInclude Include="..\..\Lzma2Enc.h" />
+    <ClInclude Include="..\..\Lzma86.h" />
+    <ClInclude Include="..\..\LzmaDec.h" />
+    <ClInclude Include="..\..\LzmaEnc.h" />
+    <ClInclude Include="..\..\LzmaLib.h" />
+    <ClInclude Include="..\..\MtCoder.h" />
+    <ClInclude Include="..\..\Ppmd7.h" />
+    <ClInclude Include="..\..\Ppmd.h" />
+    <ClInclude Include="..\..\RotateDefs.h" />
+    <ClInclude Include="..\..\Sha256.h" />
+    <ClInclude Include="..\..\Threads.h" />
+    <ClInclude Include="..\..\Types.h" />
+    <ClInclude Include="..\..\Xz.h" />
+    <ClInclude Include="..\..\XzCrc64.h" />
+    <ClInclude Include="..\..\XzEnc.h" />
+  </ItemGroup>
+</Project>
