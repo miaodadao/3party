@@ -1,0 +1,6 @@
+/python/build/
+/python/dist/
+/python/protobuf.egg-info/
+/python/*.egg
+/python/google/protobuf/compiler/
+/python/google/protobuf/descriptor_pb2.py
