@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'crptopp' target in the 'crptopp' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #improt "pch.h"
+#endif
