@@ -4,5 +4,5 @@
 	branch = master
 [submodule "cocos2dx-common"]
 	path = cocos2dx-common
-	url = https://github.com/stubma/cocos2dx-common.git
+	url = https://github.com/miaodadao/cocos2dx-common.git
 	branch = master
