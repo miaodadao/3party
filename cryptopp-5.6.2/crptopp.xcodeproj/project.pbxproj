@@ -291,7 +291,6 @@
 		D7E8E807179E7BCE00A390D9 /* gfpcrypt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gfpcrypt.cpp; sourceTree = "<group>"; };
 		D7E8E808179E7BCE00A390D9 /* gfpcrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gfpcrypt.h; sourceTree = "<group>"; };
 		D7E8E809179E7BCE00A390D9 /* GNUmakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GNUmakefile; sourceTree = "<group>"; };
-		D7E8E80A179E7BCE00A390D9 /* GNUmakefile_cyp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GNUmakefile_cyp; sourceTree = "<group>"; };
 		D7E8E80B179E7BCE00A390D9 /* gost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gost.cpp; sourceTree = "<group>"; };
 		D7E8E80C179E7BCE00A390D9 /* gost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gost.h; sourceTree = "<group>"; };
 		D7E8E80D179E7BCE00A390D9 /* gzip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gzip.cpp; sourceTree = "<group>"; };
@@ -720,7 +719,6 @@
 				D7E8E807179E7BCE00A390D9 /* gfpcrypt.cpp */,
 				D7E8E808179E7BCE00A390D9 /* gfpcrypt.h */,
 				D7E8E809179E7BCE00A390D9 /* GNUmakefile */,
-				D7E8E80A179E7BCE00A390D9 /* GNUmakefile_cyp */,
 				D7E8E80B179E7BCE00A390D9 /* gost.cpp */,
 				D7E8E80C179E7BCE00A390D9 /* gost.h */,
 				D7E8E80D179E7BCE00A390D9 /* gzip.cpp */,

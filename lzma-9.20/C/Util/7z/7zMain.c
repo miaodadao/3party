@@ -275,7 +275,7 @@ static void GetAttribString(UInt32 wa, Bool isDir, char *s)
   s[5] = '\0';
 }
 #else
-static void GetAttribString(UInt32, Bool, char *s)
+static void GetAttribString(UInt32 tt, Bool t, char *s)
 {
   s[0] = '\0';
 }

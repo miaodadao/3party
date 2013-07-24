@@ -20,4 +20,4 @@ Release.win32/
 *.pyc
 Thumbs.db
 .DS_Store
-
+*.o
