@@ -48,6 +48,17 @@ extern "C" {
 #include <ctype.h>
 #include <stdlib.h>
 
+
+#if defined __WIN32__ || defined WIN32
+#ifdef _DEBUG
+static int isspace(char c)
+{
+	// http://www.cplusplus.com/reference/cctype/isspace/
+	return c == ' ' || c == '\t' || c == '\n' || c == '\v' || c == '\f' || c == '\r';
+}
+#endif
+#endif
+
 static const char ESC=27;
 static const char OPN=28;
 static const char CLS=29;
