@@ -21,3 +21,4 @@ Release.win32/
 Thumbs.db
 .DS_Store
 *.o
+boost*/stage/lib/
