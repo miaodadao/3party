@@ -101,6 +101,8 @@ RandomNumberGenerator & GlobalRNG()
 	return s_globalRNG;
 }
 
+
+
 int CRYPTOPP_API main(int argc, char *argv[])
 {
 #ifdef _CRTDBG_LEAK_CHECK_DF
